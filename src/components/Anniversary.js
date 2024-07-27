@@ -10,11 +10,13 @@ const Anniversary = () => {
         <p className="text-lg text-gray-600">2 Tahun 7 Bulan</p>
         <p className="text-lg text-gray-600">27 Juli 2024</p>
         <div className="mt-6">
-          <img 
-            src="https://via.placeholder.com/150"
-            alt="Happy Couple"
-            className="rounded-full mx-auto"
-          />
+          <div className="w-40 h-40 rounded-full overflow-hidden mx-auto">
+            <img 
+              src="/assets/images/ayangku.jpg"
+              alt="Sayangku Ririn"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
         <p className="text-gray-800 mt-4">Terima kasih telah bersama denganku.</p>
         <Letter />
